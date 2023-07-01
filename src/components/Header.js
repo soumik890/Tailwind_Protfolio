@@ -5,15 +5,20 @@ const Header = () => {
   return (
     <div className="py-8">
       <div className="countainer mx-auto">
-        <div
+        {/* <div
           className="flex justify-between items-center"
           // style={{ display: "flex", justifyContent: "space-between" }}
         >
           <a href="#">
-            <img src={Logo} alt="" />
+            <p
+              className="text-[35px] font-bold lreading-[0.8] lg:text-[30px]"
+              style={{ marginLeft: 10 }}
+            >
+              Soumik Chakraborty
+            </p>
           </a>
           <button className="btn btn-sm">Work with me</button>
-        </div>
+        </div> */}
       </div>
     </div>
   );

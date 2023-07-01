@@ -28,7 +28,7 @@ const Banner = () => {
             </motion.h1>
 
             <motion.div
-              className="mb-6 text-[36px] lg:text-[60px]
+              className="mb-6 text-[30px] lg:text-[40px]
             font-secondary font-semibold uppercase leading-[1]"
               variants={fadeIn("up", 0.3)}
               initial="hidden"
@@ -38,11 +38,11 @@ const Banner = () => {
               <span className="mr-4">I am a</span>
               <TypeAnimation
                 sequence={[
-                  "Developer !",
+                  "Web App Developer !",
                   2000,
-                  "Designer !",
+                  "Native App Developer !",
                   2000,
-                  "Youtuber !",
+                  "Tech Enthusiast !",
                   2000,
                 ]}
                 speed={50}
